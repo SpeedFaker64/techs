@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Historia completa de la guerra de consolas, en orden cronológico, de 1972 a hoy.">
+  <title>La Guerra de Consolas | Historia completa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <nav class="topbar" aria-label="Navegación principal">
+    <a class="brand" href="#inicio">🎮 CONSOLE WARS</a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="#odyssey">1972</a></li><li><a href="#crash">1983</a></li><li><a href="#nes">1985</a></li>
+      <li><a href="#genesis">1989</a></li><li><a href="#traicion">1991</a></li><li><a href="#cartuchos">1996</a></li>
+      <li><a href="#ps2">2000</a></li><li><a href="#x360">2005</a></li><li><a href="#xboxone">2013</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="kicker">Más de 50 años de rivalidad</p>
+      <h1 class="logo">LA GUERRA<br><span>DE CONSOLAS</span></h1>
+      <p class="lead">Toda la historia está en esta página, en orden de años. Cada botón te lleva al momento exacto que indica.</p>
+
+      <div class="strip-wrap">
+        <button class="btn arrow" type="button" id="stripPrev" aria-label="Botones anteriores">◀</button>
+        <div class="strip" id="strip" role="group" aria-label="Ir a un momento de la historia">
+          <a class="btn topic" style="--c:var(--atari)" href="#odyssey"><small>1972</small>🕹️ La primera consola</a>
+          <a class="btn topic" style="--c:#5b6275" href="#crash"><small>1983</small>💥 El gran crash</a>
+          <a class="btn topic" style="--c:var(--nintendo)" href="#nes"><small>1985</small>🍄 El regreso de Nintendo</a>
+          <a class="btn topic" style="--c:var(--sony)" href="#traicion"><small>1991</small>🗡️ La traición Nintendo y Sony</a>
+          <a class="btn topic" style="--c:var(--sega)" href="#sonic"><small>1991</small>⚔️ Sonic contra Mario</a>
+          <a class="btn topic" style="--c:var(--sega)" href="#mortal"><small>1993</small>🩸 Escándalo de Mortal Kombat</a>
+          <a class="btn topic" style="--c:var(--sega)" href="#saturn"><small>1995</small>💣 El golpe sorpresa de Saturn</a>
+          <a class="btn topic" style="--c:var(--sony)" href="#cartuchos"><small>1996</small>💿 Cartuchos contra CD</a>
+          <a class="btn topic" style="--c:var(--sega)" href="#adios-sega"><small>1998</small>🌀 El adiós de Sega</a>
+          <a class="btn topic" style="--c:var(--sony)" href="#ps2"><small>2000</small>📀 El reinado de PS2</a>
+          <a class="btn topic" style="--c:var(--xbox)" href="#xbox"><small>2001</small>🛡️ Llega Xbox</a>
+          <a class="btn topic" style="--c:var(--nintendo)" href="#wii"><small>2006</small>🎯 La sorpresa de Wii</a>
+          <a class="btn topic" style="--c:var(--xbox)" href="#xboxone"><small>2013</small>📣 Xbox One contra PS4</a>
+          <a class="btn topic" style="--c:#5b6275" href="#hoy"><small>2020</small>🚀 La guerra de hoy</a>
+        </div>
+        <button class="btn arrow" type="button" id="stripNext" aria-label="Botones siguientes">▶</button>
+      </div>
+
+      <div class="vs-row" aria-hidden="true"><span>🦔</span><b>VS</b><span>🍄</span><b>VS</b><span>🦊</span><b>VS</b><span>🛡️</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="block" id="companias">
+      <h2>Las compañías y sus mascotas</h2>
+      <p class="sub">Ordenadas por el año de su primera consola. El botón lleva a su momento en la historia.</p>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <section class="block" id="historia">
+      <h2>La historia, año por año</h2>
+      <p class="sub">La franja de color de cada momento indica qué compañías participan.</p>
+      <div class="timeline">
+
+      <article class="era" id="e1" style="--c:var(--atari)">
+        <div class="era-head"><span class="years">1972–1982</span><h3>Los orígenes</h3></div>
+        <div class="era-body">
+          <div class="evento" id="odyssey" data-cos="magnavox,atari">
+            <div class="ev-top"><span class="when">1972</span><h4>La primera consola: Magnavox Odyssey</h4></div>
+            <p>Magnavox lanzó la Odyssey en 1972, diseñada por Ralph Baer y considerada la primera consola doméstica. Ese mismo año Atari, fundada por Nolan Bushnell y Ted Dabney, estrenó Pong en los salones recreativos, y en 1975 lo llevó a los hogares. Magnavox y Atari llegaron a un acuerdo por la similitud entre sus juegos de tenis.</p>
+          </div>
+          <div class="evento" id="atari2600" data-cos="atari,fairchild">
+            <div class="ev-top"><span class="when">1977</span><h4>Atari 2600 y los cartuchos</h4></div>
+            <p>Fairchild había estrenado los cartuchos intercambiables con la Channel F en 1976, pero fue la Atari 2600 (1977) la que los popularizó. Su gran éxito llegó en 1980 con la adaptación de Space Invaders. Todavía no había mascotas: la marca era el propio sistema.</p>
+          </div>
+          <div class="evento" id="rivales" data-cos="mattel,coleco,atari">
+            <div class="ev-top"><span class="when">1979–1982</span><h4>Intellivision y ColecoVision</h4></div>
+            <p>Mattel lanzó la Intellivision en 1979 y Coleco, la ColecoVision en 1982. Ambas competían con la 2600 ofreciendo mejores gráficos, y aparecieron los primeros anuncios de televisión que comparaban consolas entre sí.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="era" id="e2" style="--c:#5b6275">
+        <div class="era-head"><span class="years">1983–1984</span><h3>El gran crash</h3></div>
+        <div class="era-body">
+          <div class="evento" id="crash" data-cos="atari,mattel,coleco">
+            <div class="ev-top"><span class="when">1983–1984</span><h4>El gran crash</h4></div>
+            <p>Había demasiadas consolas, cientos de juegos mediocres y ningún control de calidad. Las tiendas se llenaron de cartuchos sin vender y los ingresos de la industria cayeron más de un 90 % en pocos años. Atari acumuló millones de unidades de E.T. y de su versión de Pac-Man; la leyenda dice que acabaron enterrados en un vertedero de Alamogordo, Nuevo México, y una excavación en 2014 confirmó que era cierto. Muchos dieron por muerto el videojuego doméstico, aunque en Japón la industria seguía creciendo.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="era" id="e3" style="--c:var(--nintendo)">
+        <div class="era-head"><span class="years">1985–1987</span><h3>Nintendo domina</h3></div>
+        <div class="era-body">
+          <div class="evento" id="nes" data-cos="nintendo">
+            <div class="ev-top"><span class="when">1985</span><h4>El regreso: de Famicom a NES</h4></div>
+            <p>La Famicom salió en Japón en 1983. Para entrar en EE. UU. en 1985, Nintendo rebautizó su consola como NES, la presentó como un sistema de entretenimiento con el robot R.O.B. para que las tiendas no la vieran como un videojuego, y apostó por Super Mario Bros., que convirtió a Mario en la cara de la compañía.</p>
+          </div>
+          <div class="evento" id="licencias" data-cos="nintendo,sega">
+            <div class="ev-top"><span class="when">1986</span><h4>Master System y el control de Nintendo</h4></div>
+            <p>Nintendo impuso un sello de calidad y limitó a cinco los juegos por año de cada editor, lo que le dio un control casi total del mercado estadounidense. Sega respondió con la Master System (1986 en EE. UU.), que tuvo mucho éxito en Europa y Brasil pero no pudo competir en Norteamérica.</p>
+          </div>
+          <div class="evento" id="pcengine" data-cos="nec,nintendo">
+            <div class="ev-top"><span class="when">1987</span><h4>La PC Engine de NEC</h4></div>
+            <p>La PC Engine salió en Japón en 1987 y plantó cara a la Famicom en su país. En EE. UU. se vendió como TurboGrafx-16 desde 1989, con menos éxito.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="era" id="e4" style="--c:var(--sega)">
+        <div class="era-head"><span class="years">1989–1994</span><h3>La guerra de los 16 bits</h3></div>
+        <div class="era-body">
+          <div class="evento" id="gameboy" data-cos="nintendo,atari,sega">
+            <div class="ev-top"><span class="when">1989</span><h4>Game Boy y las portátiles</h4></div>
+            <p>La Game Boy llegó en 1989 con Tetris. Aunque era menos potente que la Atari Lynx (1989) y la Sega Game Gear (1990), su precio y su batería duradera le dieron la victoria en las portátiles.</p>
+          </div>
+          <div class="evento" id="genesis" data-cos="sega,nintendo">
+            <div class="ev-top"><span class="when">1989</span><h4>Sega ataca: Genesis</h4></div>
+            <p>La Mega Drive salió en Japón en 1988 y como Genesis en EE. UU. en 1989. Desde 1990, con Tom Kalinske al frente de Sega of America, la compañía lanzó una campaña agresiva con el lema «Genesis does what Nintendon't» y atacó directamente a Nintendo en sus anuncios.</p>
+          </div>
+          <div class="evento" id="neogeo" data-cos="snk">
+            <div class="ev-top"><span class="when">1990</span><h4>Neo Geo, la consola de lujo</h4></div>
+            <p>SNK lanzó la Neo Geo en 1990, con calidad de arcade en casa pero a un precio altísimo, por lo que quedó como una consola para pocos jugadores.</p>
+          </div>
+          <div class="evento" id="snes" data-cos="nintendo,sega">
+            <div class="ev-top"><span class="when">1990–1991</span><h4>La respuesta: Super Nintendo</h4></div>
+            <p>La Super Famicom salió en Japón en 1990 y la SNES en EE. UU. en 1991, con Super Mario World. Después llegaron Street Fighter II (1992) y Donkey Kong Country (1994). Competía con la Genesis en la guerra de los 16 bits, en la que cada bando presumía de sus mejores juegos.</p>
+          </div>
+          <div class="evento" id="traicion" data-cos="nintendo,sony,philips">
+            <div class="ev-top"><span class="when">1991</span><h4>La traición entre Nintendo y Sony</h4></div>
+            <p>Nintendo y Sony trabajaron juntas en un lector de CD para la SNES, con el nombre de «Play Station». En el CES de junio de 1991 Sony presentó el proyecto, y al día siguiente Nintendo anunció que se asociaba con Philips en su lugar. Sony se sintió traicionada y, bajo la dirección de Ken Kutaragi, decidió convertir su proyecto en una consola propia: la PlayStation.</p>
+          </div>
+          <div class="evento" id="sonic" data-cos="sega,nintendo">
+            <div class="ev-top"><span class="when">1991</span><h4>Nace Sonic: Sonic contra Mario</h4></div>
+            <p>Sega presentó a Sonic en 1991 como una mascota veloz y rebelde pensada para competir con Mario, y pasó a venir incluido con la Genesis. Según distintas estimaciones, entre 1991 y 1994 Sega llegó a superar a Nintendo en cuota de ventas en EE. UU.</p>
+          </div>
+          <div class="evento" id="addons" data-cos="sega">
+            <div class="ev-top"><span class="when">1992–1994</span><h4>Sega CD y 32X</h4></div>
+            <p>Sega intentó extender la vida de la Genesis con el Sega CD (1992 en EE. UU.) y el 32X (1994), pero ambos dividieron a su público y vendieron poco.</p>
+          </div>
+          <div class="evento" id="mortal" data-cos="sega,nintendo">
+            <div class="ev-top"><span class="when">1993–1994</span><h4>El escándalo de Mortal Kombat</h4></div>
+            <p>En 1993 Mortal Kombat llegó a las consolas: en Genesis se podía activar la sangre con un código, mientras que Nintendo la censuró en SNES. Las ventas favorecieron a Sega, pero el escándalo llevó a audiencias en el Senado de EE. UU. en diciembre de 1993. La industria creó el sistema de clasificación ESRB en 1994, que sigue vigente.</p>
+          </div>
+          <div class="evento" id="fracasos" data-cos="philips,3do,atari">
+            <div class="ev-top"><span class="when">1993</span><h4>CD-i, 3DO y Jaguar</h4></div>
+            <p>La Philips CD-i (1991), la 3DO (1993, a 699 dólares) y la Atari Jaguar (1993, anunciada como de «64 bits») intentaron abrirse paso, pero ninguna logró un público amplio.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="era" id="e5" style="--c:var(--sony)">
+        <div class="era-head"><span class="years">1994–1995</span><h3>Nace PlayStation</h3></div>
+        <div class="era-body">
+          <div class="evento" id="ps1" data-cos="sony,sega">
+            <div class="ev-top"><span class="when">1994</span><h4>PlayStation entra en escena</h4></div>
+            <p>La Saturn salió en Japón el 22 de noviembre de 1994 y la PlayStation, el 3 de diciembre. Sony apostó por juegos en CD, más baratos de fabricar que los cartuchos, y por un 3D más fácil de programar para los desarrolladores.</p>
+          </div>
+          <div class="evento" id="saturn" data-cos="sega,sony">
+            <div class="ev-top"><span class="when">1995</span><h4>El golpe sorpresa de Saturn</h4></div>
+            <p>En el E3 de mayo de 1995 Sega anunció que la Saturn ya estaba a la venta en EE. UU. por 399 dólares, antes de lo previsto, lo que molestó a varias tiendas. Sony respondió en el mismo evento con un precio de 299 dólares para la PlayStation, que llegó a EE. UU. en septiembre. La arquitectura de dos procesadores de la Saturn era difícil de programar.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="era" id="e6" style="--c:var(--sega)">
+        <div class="era-head"><span class="years">1996–1998</span><h3>N64, PS1 y la caída de Sega</h3></div>
+        <div class="era-body">
+          <div class="evento" id="cartuchos" data-cos="nintendo,sony">
+            <div class="ev-top"><span class="when">1996–1997</span><h4>Cartuchos contra CD</h4></div>
+            <p>La Nintendo 64 (1996) apostó por el 3D, con Super Mario 64, GoldenEye y Ocarina of Time, pero mantuvo los cartuchos, más caros y con menos capacidad. Square llevó Final Fantasy VII a la PlayStation en 1997 y otras compañías siguieron ese camino. La PlayStation superó los 100 millones de unidades, cerca de tres veces más que la N64.</p>
+          </div>
+          <div class="evento" id="adios-sega" data-cos="sega,sony">
+            <div class="ev-top"><span class="when">1998–2001</span><h4>El adiós de Sega</h4></div>
+            <p>Sega lanzó la Dreamcast en noviembre de 1998 en Japón y el 9/9/99 en EE. UU., con módem integrado. Pero la marca ya estaba dañada por la Saturn y la PS2 se acercaba. En enero de 2001 Sega anunció que dejaba de fabricar consolas para dedicarse a hacer juegos para otras plataformas, incluidas las de sus antiguos rivales.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="era" id="e7" style="--c:var(--xbox)">
+        <div class="era-head"><span class="years">2000–2001</span><h3>PS2, GameCube y Xbox</h3></div>
+        <div class="era-body">
+          <div class="evento" id="ps2" data-cos="sony">
+            <div class="ev-top"><span class="when">2000</span><h4>El reinado de PS2</h4></div>
+            <p>La PlayStation 2 salió en Japón en marzo de 2000 y en EE. UU. en octubre, con lector de DVD y retrocompatibilidad con los juegos de PS1. Se convirtió en la consola más vendida de la historia, con unos 155 millones de unidades.</p>
+          </div>
+          <div class="evento" id="xbox" data-cos="microsoft,nintendo,sony">
+            <div class="ev-top"><span class="when">2001</span><h4>Llegan Xbox y GameCube</h4></div>
+            <p>A finales de 2001 llegaron la GameCube de Nintendo y la primera Xbox de Microsoft, con Halo: Combat Evolved. Xbox Live, lanzado en 2002, transformó el juego online en consola. Microsoft perdió dinero al principio, pero ganó un lugar en la guerra, mientras la PS2 seguía dominando.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="era" id="e8" style="--c:var(--nintendo)">
+        <div class="era-head"><span class="years">2005–2012</span><h3>Xbox 360, PS3 y Wii</h3></div>
+        <div class="era-body">
+          <div class="evento" id="x360" data-cos="microsoft,sony">
+            <div class="ev-top"><span class="when">2005</span><h4>Xbox 360 se adelanta</h4></div>
+            <p>La Xbox 360 salió en 2005, un año antes que sus rivales, con logros y un servicio online sólido. Su fallo de hardware, conocido como «tres luces rojas», obligó a Microsoft a ampliar la garantía y le costó más de mil millones de dólares.</p>
+          </div>
+          <div class="evento" id="ps3" data-cos="sony,microsoft">
+            <div class="ev-top"><span class="when">2006</span><h4>El tropiezo de PS3</h4></div>
+            <p>La PS3 llegó en 2006 con precios de hasta 599 dólares, el procesador Cell, difícil de programar, y Blu-ray. Empezó mal, pero remontó con el tiempo, y en 2008 Blu-ray ganó la guerra de formatos contra HD DVD.</p>
+          </div>
+          <div class="evento" id="wii" data-cos="nintendo,microsoft,sony">
+            <div class="ev-top"><span class="when">2006–2012</span><h4>La sorpresa de Wii</h4></div>
+            <p>Nintendo cambió de estrategia con la Wii (2006): menos potencia, mandos de movimiento y juegos para toda la familia, como Wii Sports. Superó los 100 millones de unidades y obligó a Microsoft (Kinect) y a Sony (Move) a imitarla. Su sucesora, la Wii U (2012), fracasó con unos 13 millones de unidades.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="era" id="e9" style="--c:#5b6275">
+        <div class="era-head"><span class="years">2013–hoy</span><h3>La guerra continúa</h3></div>
+        <div class="era-body">
+          <div class="evento" id="xboxone" data-cos="microsoft,sony">
+            <div class="ev-top"><span class="when">2013</span><h4>Xbox One contra PS4</h4></div>
+            <p>En su presentación de 2013, Microsoft anunció que la Xbox One exigiría conexión periódica a internet, limitaría los juegos usados y incluiría Kinect obligatorio, con un precio de 499 dólares frente a los 399 de la PS4. Sony se burló del tema en el E3 con un vídeo sobre compartir juegos. Microsoft dio marcha atrás en junio, pero la PS4 salió con ventaja y superó los 117 millones de unidades.</p>
+          </div>
+          <div class="evento" id="switch" data-cos="nintendo">
+            <div class="ev-top"><span class="when">2017</span><h4>Nintendo Switch</h4></div>
+            <p>Nintendo lanzó en 2017 la Switch, híbrida entre sobremesa y portátil, que con The Legend of Zelda: Breath of the Wild superó los 150 millones de unidades.</p>
+          </div>
+          <div class="evento" id="hoy" data-cos="sony,microsoft,nintendo">
+            <div class="ev-top"><span class="when">2020–hoy</span><h4>La guerra de hoy</h4></div>
+            <p>En 2020 llegaron la PS5 y las Xbox Series X|S, con problemas de stock. Microsoft completó en 2023 la compra de Activision Blizzard y apostó por el servicio Game Pass, Sony empezó a llevar sus exclusivos a PC, y Nintendo lanzó la Switch 2 en junio de 2025. Hoy la competencia se libra con exclusivos, suscripciones, nube y PC.</p>
+          </div>
+        </div>
+      </article>
+
+      </div>
+    </section>
+
+    <section class="block" id="ventas">
+      <h2>Consolas más vendidas</h2>
+      <p class="sub">Unidades vendidas en millones. Switch, Switch 2 y PS5 son datos oficiales de Nintendo y Sony a 30 de junio de 2026; el resto son cifras históricas aproximadas. Microsoft no publica las ventas de Xbox One ni de Xbox Series, por eso no aparecen.</p>
+      <div class="chart" id="chart"></div>
+    </section>
+  </main>
+
+
+
+  <a href="#inicio" class="to-top btn" id="toTop" aria-label="Volver al inicio">▲</a>
+  <script src="script.js"></script>
+</body>
+</html>
